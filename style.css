@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: hsl(75, 94%, 57%);
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter';
+    cursor: default;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hero-card {
+    background-color: hsl(0, 0%, 12%);
+    justify-content: center;
+    width: 360px;
+    height: 614px;
+    border-radius: 15px;
+}
+
+.hero-card-img {
+    display: flex;
+    margin-top: 41px;
+    margin-bottom: 31px;
+    justify-content: center;
+}
+
+.hero-card-img img{
+    width: 90px;
+    border-radius: 50%;
+}
+
+.hero-card-text {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 25px;
+}
+
+.hero-card-text h1 {
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+}
+
+.hero-card-text h2 {
+    font-size: 14.5px;
+    padding-bottom: 15px;
+}
+
+.hero-card-text p {
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+
+.hero-card-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+
+}
+.hero-card-links ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-card-links ul li {
+    margin-bottom: 16px;
+}
+
+.hero-card-links ul li button {
+    width: 304px;
+    height: 45px;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s all ease-in-out;
+}
+.hero-card-links ul li button:hover {
+    background-color: hsl(75, 94%, 57%);
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+
+.hero-card-links ul li a button {
+    width: 304px;
+    height: 45px;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Inter';
+}
+.hero-card-links ul li a button:hover {
+    color: hsl(0, 0%, 12%);
+}
+
+@media screen and (max-width: 375px) {
+    .hero-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 130vh;
+        width: 100vw;
+    }
+
+    .hero-card {
+        background-color: hsl(0, 0%, 12%);
+        justify-content: center;
+        width: 340px;
+        height: 614px;
+        border-radius: 15px;
+    }
+}
