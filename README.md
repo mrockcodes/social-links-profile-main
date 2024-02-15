@@ -29,8 +29,8 @@ Users should be able to:
 
 
 ## My process
-![](./index.html)
-![](./style.css)
+[](./index.html)
+[](./style.css)
 
 
 ### Built with
