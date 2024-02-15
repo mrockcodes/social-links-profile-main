@@ -7,7 +7,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-- [My process](#my-process)
   - [Built with](#built-with)
 
 
@@ -25,12 +24,6 @@ Users should be able to:
 
 ![](./design/Screenshot%202024-02-15%20225019.png)
 ![](./design/Screenshot%202024-02-15%20225031.png)
-
-
-
-## My process
-./index.html
-./style.css
 
 
 ### Built with
